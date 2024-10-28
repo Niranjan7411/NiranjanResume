@@ -100,52 +100,19 @@ img:hover
 {
 		margin: 50px 50px 50px 50px;
 }
-.java ul
+.technical ul
 {
 	letter-spacing: 0.2px;
 	line-height: 28px;
 	margin-left: 25px;
 	list-style-type:square;
-}
-.jdbc ul
-{
-	letter-spacing: 0.2px;
-	line-height: 28px;
-	margin-left: 25px;
-	list-style-type:square;
-}
-.servlet ul
-{
-	letter-spacing: 0.2px;
-	line-height: 28px;
-	margin-left: 25px;
-	list-style-type:square;
-}
-.servlet ul ul
-{
-	list-style-type:circle;
 }
 
-.sql ul
+.tools
 {
-	letter-spacing: 0.2px;
-	line-height: 28px;
-	margin-left: 25px;
-	list-style-type:square;
+		margin: 50px 50px 50px 50px;
 }
-.sql ul ul
-{
-	list-style-type:circle;
-}
-
-.htmlcss ul
-{
-	letter-spacing: 0.2px;
-	line-height: 28px;
-	margin-left: 25px;
-	list-style-type:square;
-}
-.echo ul
+.tools ul
 {
 	letter-spacing: 0.2px;
 	line-height: 28px;
@@ -255,7 +222,17 @@ img:hover
 	line-height: 28px;
 	margin-left: 25px;
 	list-style-type:square;
+	margin-bottom: 7px;
+	
 }
+.experience ul:nth-of-type(2) {
+    list-style-type:num;
+	margin-left: 75px;
+	margin-top: 0px;
+	
+	
+}
+
 .experience span
 {
 	color:blue;
